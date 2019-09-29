@@ -1,0 +1,7 @@
+mount -t proc /proc proc
+mount --rbind /sys sys
+#mount --make-rslave /mnt/gentoo/sys
+mount --rbind /dev dev
+#mount --make-rslave /mnt/gentoo/dev
+
+#chroot ./ /bin/su
