@@ -1,0 +1,21 @@
+cp -prH /bin/ $1/
+cp -prH /sbin/ $1/
+cp -prH /etc/ $1/
+cp -prH /home/ $1/
+cp -prH /srv/ $1
+cp -prH /lib/ $1/
+cp -prH /media/ $1/
+cp -prH /opt/ $1/
+cp -prH /root/ $1/
+cp -prH /run/ $1/
+cp -prH /tmp/ $1/
+cp -prH /usr/ $1/
+cp -prH /var/ $1/
+cp -prH /boot/ $1/
+
+
+
+mkdir $1/dev
+mkdir $1/proc
+mkdir $1/sys
+mkdir $1/mnt
